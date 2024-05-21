@@ -37,4 +37,14 @@ Para desarrollar este proyecto, utilizamos las siguientes tecnologías:
 
 -Cuestionarios Interactivos: Cada nivel incluye cuestionarios creados con Quizizz, diseñados con la ayuda de ChatGPT para evaluar y reforzar el aprendizaje.
 
+## Fotografías
+
+
+![1](https://github.com/nataliagamezbarea/antix./assets/144036430/ceafdd3e-4de0-404f-b2b5-5acd34945bfc)
+
+![2](https://github.com/nataliagamezbarea/antix./assets/144036430/0a07aae0-aa9c-48ed-86bc-a617b67523ed)
+
+![3](https://github.com/nataliagamezbarea/antix./assets/144036430/45f1034c-3cfb-4fe0-9b4d-cf80d5bba7a0)
+
+![4](https://github.com/nataliagamezbarea/antix./assets/144036430/2eb5b97c-700d-47ad-bd4a-dd6e1382b6cc)
 
