@@ -1,0 +1,56 @@
+        body {
+            background-image: url("../../images/fondo_general/fondo_general.jpg");
+            background-size: 100% 100%;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+        
+        .center {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            font-size: 1.6vw;
+            color: white;
+            text-shadow: 2px 2px black;
+        }
+
+        @font-face {
+            font-family: 'GrandeuxSerif_PERSONAL_USE_ONLY';
+            src: url('../fuentes/GrandeuxSerif_PERSONAL_USE_ONLY.otf') format('truetype');
+        }
+        
+        h1 {
+            font-family: 'GrandeuxSerif_PERSONAL_USE_ONLY', serif;
+            font-size: 5vw;
+            margin-top: -10px;
+            text-shadow: 0 0 10px red, 0 0 20px red, 0 0 30px red, 0 0 40px red, 0 0 50px red;
+        }
+
+        p {
+            font-size: 3vw;
+        }
+
+        .btn-circle {
+            display: inline-block;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: white;
+            text-align: center;
+            line-height: 50px;
+            font-size: 1.5vw;
+            color: black;
+            margin-top: 20px;
+            text-decoration: none;
+        }
+
+        .btn-circle i {
+            margin-top: 3px;
+        }
+
+        button.button {
+            font-size: 3vw;
+        }

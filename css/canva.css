@@ -1,0 +1,83 @@
+body {  
+  background-image: url("../images/fondo_general/fondo_general.jpg");
+  background-size: 100% 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+}
+
+.outer-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.inner-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  max-height: calc(100% - 5rem);
+  border-radius: 8px;
+  box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16);
+  overflow: hidden;
+}
+
+.iframe-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: -60px;
+  left: 0;
+}
+
+.iframe-container iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+.canva-link {
+  display: block;
+  margin-top: 1em;
+  text-align: center;
+  font-size: 1.5vw;
+  color: #666;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 20px;
+  padding: 10px 20px;
+  background-color: #008CBA;
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+}
+
+.canva-link:hover {
+  text-decoration: underline;
+}
+
+.button-container {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+button {
+  margin-top: 0.25vw;
+  margin-left: 1vw;
+  padding: 10px 20px;
+  font-size: 1.2vw;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

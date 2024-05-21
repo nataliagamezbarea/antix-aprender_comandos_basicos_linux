@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh;
+    background-image: url("../images/inicio/decoraciones/fondo/paisaje.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.audio-container {
+    position: fixed;
+    top: 10px; 
+    left: 10px; 
+    z-index: 999; 
+}
+
+@font-face {
+    font-family: 'Baboy';
+    src: url('../fuentes/Baboy.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Cute notes';
+    src: url('../fuentes/Cute\ Notes.ttf') format('truetype');
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+#Title {
+    font-family: 'Baboy', sans-serif;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    color: rgb(209, 21, 21);
+    font-size: 4vw;
+    text-shadow: 0 0 5px white, 0 0 10px white, 0 0 20px white;
+    margin-top: -10vw;
+}
+
+#decoration1 {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    max-width: 30vw;
+    height: 11vw;
+    min-width: 38vw;
+    margin-top: -13vw;
+}
+
+#subtitleContainer {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+    margin-top: -6vw;
+    -webkit-text-stroke-width:none;
+}
+
+#learnButtonContainer {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+    font-size: 2.2vw;
+    margin-top: 8vw;
+
+}
+
+#subtitle {
+    font-family: 'Cute notes', sans-serif;
+    color: black;
+    font-size: 3vw;
+    text-align: center;
+    text-shadow: 0 0 5px #ff0000;
+    -webkit-text-stroke-width: 0px;
+}
+
+button#learnButton {
+    font-weight: bold;
+    font-size: 2.5vw;
+    z-index: 2;
+    padding: 1vw 2vw;
+    font-family: 'Mali', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: -13vw;
+
+}
+
+#decoration2 {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    max-width: 50vw;
+    width: 780%;
+    height: auto;
+    min-width: 40vw;
+    margin-top: 14vw;
+
+}
+
+#playButton {
+    position: absolute;
+    left: 2vw;
+    font-size: 1.4vw;
+    z-index: 2;
+    padding: 10px 20px;
+    font-family: 'Mali', sans-serif;
+    font-weight: bold;
+    margin-top: -30vw;
+    padding: 1vw 2vw;
+
+
+
+}
+
+    

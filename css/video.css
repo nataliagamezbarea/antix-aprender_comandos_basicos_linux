@@ -1,0 +1,48 @@
+
+body {
+    background-image: url("../images/fondo_general/fondo_general.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.video-container {
+    width: 90%;
+    max-width: 1200px;
+    aspect-ratio: 16 / 9;
+    margin: 20px 0;
+    box-sizing: border-box;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.button-container {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    button {
+        font-size: 0.8em;
+        padding: 8px 16px;
+    }
+}
